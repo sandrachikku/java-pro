@@ -1,0 +1,32 @@
+.lpd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: auto;
+    padding: 10%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
+}
+.lbut{
+    background-color: rgb(74, 188, 82);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+}
+.col{
+    text-align: center;
+}
+.coll{
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+.pad td{
+    padding: 10px;
+}
+td input[type="text"]{
+    width: 200px;
+    height: 30px;
+}

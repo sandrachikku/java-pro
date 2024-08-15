@@ -1,0 +1,182 @@
+
+.log{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+    align-items: center;
+}
+.log button{
+    width: 100px;
+    height: 60%;
+    margin: 2%;
+    color: white;
+    font-size:medium;
+    border-radius: 5px;
+    border: 1px solid rgb(41, 40, 40);
+    background-color: green;
+}
+
+.pdetails{
+    margin-top: 5vh;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pdleft{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+}
+.pdl1{
+    width: 15%;
+    height: 100%;
+}
+.pdl2{
+    width: 85%;
+    height: 100%;
+}
+.pdleft .pdl2 img{
+    height: 24rem;
+    width: 24rem;
+}
+.pdleft button{
+    width: 45%;
+    height: 10%;
+    margin: 2%;
+    color: white;
+    font-size:medium;
+    border-radius: 5px;
+    padding: 16px 24px;
+    border: 1px solid rgb(49, 60, 179);
+    background-color: rgb(49, 60, 179);
+}
+.butt button:hover {
+    background-color: rgb(78, 90, 221);
+    transform: scale(1.05);
+}
+/* .pdleft  #bt1 {
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
+.pdleft  #bt2 {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+} */
+.pdright{
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width:60%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+
+
+.r{
+    background-color: rgb(13, 142, 13);
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 1%;
+}
+
+.pdright .review {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* .rev{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} */
+.pdl1 img{
+    width: 100%;
+
+}
+.pdl1 img:hover {
+    transform: scale(1.1);
+}
+#pa{
+    font-size: 12px;
+}
+#h2a .title{
+    font-weight: bold;
+    font-size: 24px;
+}
+#h2a .categ{
+    font-weight: lighter;
+}
+#pa{
+    padding: 5px 10px;
+}
+.p1{
+    color: black;
+    margin-right: 5px;
+}
+.p2{
+    color: rgb(172, 32, 32);
+    font-weight: lighter;
+    margin-right: 5px;
+}
+.r img{
+    height: 15px;
+    width: 16px;
+}
+.pa {
+    display: flex;
+    justify-content: center;
+}
+.review{
+    font-size: 14px;
+    line-height: 25px;
+}
+.bank{
+    margin: 15px 0;
+}
+.bank ul{
+    margin: 15px 0;
+    list-style-type: none;
+}
+.bank ul li{
+    margin: 8px 2px;
+}
+.bank img{
+    height: 16px;
+    width: 16px;
+}
+.spec{
+    padding: 10px 5px;
+    border: 1px solid rgb(154, 144, 144);
+}
+.table{ 
+    padding: 10px 5px;
+    border-left: 1px  solid rgb(154, 144, 144);
+    border-right: 1px  solid rgb(154, 144, 144);
+    border-bottom: 1px  solid rgb(154, 144, 144);
+}
+#h3re{
+    margin: 15px;
+}
+.review h4{
+    font-weight: lighter;
+}
